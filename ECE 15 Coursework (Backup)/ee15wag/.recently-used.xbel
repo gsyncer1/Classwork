@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/linux/ieng6/ee15w/ee15wag/%5C" added="2011-02-02T01:08:48Z" modified="2011-02-02T01:14:12Z" visited="2011-02-02T01:08:48Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-csrc"/>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="emacs %f" timestamp="1296609252" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/linux/ieng6/ee15w/ee15wag/integer_sum.c" added="2011-02-02T01:12:17Z" modified="2011-02-02T01:13:22Z" visited="2011-02-02T01:12:17Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-csrc"/>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="gvim -f %f" timestamp="1296609202" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/linux/ieng6/ee15w/ee15wag/cos_input.dat" added="2011-02-22T23:33:36Z" modified="2011-02-22T23:33:36Z" visited="2011-02-22T23:33:36Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="gedit %U" timestamp="1298417616" count="1"/>
+          <bookmark:application name="gedit" exec="gedit %u" timestamp="1298417616" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/linux/ieng6/ee15w/public/testFiles/cos_output.dat" added="2011-02-22T23:33:43Z" modified="2011-02-22T23:33:43Z" visited="2011-02-22T23:33:43Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="gedit %U" timestamp="1298417623" count="1"/>
+          <bookmark:application name="gedit" exec="gedit %u" timestamp="1298417623" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/linux/ieng6/ee15w/ee15wag/Discussion5/loops.c" added="2011-02-22T23:36:15Z" modified="2011-02-22T23:55:56Z" visited="2011-02-22T23:36:15Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-csrc"/>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="gvim -f %f" timestamp="1298418956" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/linux/ieng6/ee15w/ee15wag/Discussion7/file_io_Ex1.c" added="2011-03-15T20:07:19Z" modified="2011-03-15T20:10:35Z" visited="2011-03-15T20:07:19Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-csrc"/>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="emacs %f" timestamp="1300219835" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/linux/ieng6/ee15w/ee15wag/Discussion7/file_io_Ex2.c" added="2011-03-15T20:10:49Z" modified="2011-03-15T20:10:49Z" visited="2011-03-15T20:10:49Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-csrc"/>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="emacs %f" timestamp="1300219849" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/linux/ieng6/ee15w/ee15wag/Discussion10/strlen_ex.c" added="2011-03-15T20:39:28Z" modified="2011-03-15T20:39:28Z" visited="2011-03-15T20:39:28Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-csrc"/>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="emacs %f" timestamp="1300221568" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/linux/ieng6/ee15w/ee15wag/Discussion10/strcmp_ex.c" added="2011-03-15T20:40:01Z" modified="2011-03-15T20:40:01Z" visited="2011-03-15T20:40:01Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-csrc"/>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="emacs %f" timestamp="1300221601" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/linux/ieng6/ee15w/ee15wag/Discussion10/ptr_array_ex.c" added="2011-03-15T20:40:06Z" modified="2011-03-15T20:40:06Z" visited="2011-03-15T20:40:06Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-csrc"/>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="emacs %f" timestamp="1300221606" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/linux/ieng6/ee15w/ee15wag/Discussion10/pointer_to_pointer.c" added="2011-03-15T20:40:21Z" modified="2011-03-15T20:40:21Z" visited="2011-03-15T20:40:21Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-csrc"/>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="emacs %f" timestamp="1300221621" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/linux/ieng6/ee15w/ee15wag/Discussion10/ptr_ex.c" added="2011-03-15T20:40:29Z" modified="2011-03-15T20:40:29Z" visited="2011-03-15T20:40:29Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-csrc"/>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="emacs %f" timestamp="1300221629" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/linux/ieng6/ee15w/ee15wag/Discussion10/ptr_func_ex.c" added="2011-03-15T20:40:37Z" modified="2011-03-15T20:40:37Z" visited="2011-03-15T20:40:37Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-csrc"/>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="emacs %f" timestamp="1300221637" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/linux/ieng6/ee15w/ee15wag/Discussion10/race.c" added="2011-03-15T20:40:41Z" modified="2011-03-15T20:40:41Z" visited="2011-03-15T20:40:41Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-csrc"/>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="emacs %f" timestamp="1300221641" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/linux/ieng6/ee15w/ee15wag/Discussion10/yourTurnDiscussion10.c" added="2011-03-15T20:40:59Z" modified="2011-03-15T20:40:59Z" visited="2011-03-15T20:40:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-csrc"/>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="emacs %f" timestamp="1300221659" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/linux/ieng6/ee15w/ee15wag/Discussion8/input.txt" added="2011-03-15T20:41:34Z" modified="2011-03-15T20:41:59Z" visited="2011-03-15T20:41:34Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="gedit %U" timestamp="1300221719" count="2"/>
+          <bookmark:application name="gedit" exec="gedit %u" timestamp="1300221695" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/linux/ieng6/ee15w/ee15wag/Discussion8/ex.txt" added="2011-03-15T20:41:49Z" modified="2011-03-15T20:41:50Z" visited="2011-03-15T20:41:49Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="gedit %U" timestamp="1300221709" count="1"/>
+          <bookmark:application name="gedit" exec="gedit %u" timestamp="1300221710" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/linux/ieng6/ee15w/ee15wag/Discussion8/rand_ex1.c" added="2011-03-15T20:41:54Z" modified="2011-03-15T20:41:54Z" visited="2011-03-15T20:42:03Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-csrc"/>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="emacs %f" timestamp="1300221714" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/linux/ieng6/ee15w/ee15wag/Discussion8/rand_ex2.c" added="2011-03-15T20:42:03Z" modified="2011-03-15T20:42:03Z" visited="2011-03-15T20:42:03Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-csrc"/>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="emacs %f" timestamp="1300221723" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/linux/ieng6/ee15w/ee15wag/Discussion8/Lab3hint1.c" added="2011-03-15T20:42:09Z" modified="2011-03-15T20:42:09Z" visited="2011-03-15T20:42:09Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-csrc"/>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="emacs %f" timestamp="1300221729" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/linux/ieng6/ee15w/ee15wag/text_analysis.dat" added="2011-03-15T21:11:55Z" modified="2011-03-19T01:16:01Z" visited="2011-03-15T21:11:55Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="gedit %U" timestamp="1300495779" count="2"/>
+          <bookmark:application name="gedit" exec="gedit %u" timestamp="1300497361" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/linux/ieng6/ee15w/ee15wag/match_and_hit" added="2011-03-15T21:14:04Z" modified="2011-03-15T21:14:04Z" visited="2011-03-15T21:14:04Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-executable"/>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="gnome-terminal %f" timestamp="1300223644" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/linux/ieng6/ee15w/ee15wag/text_analysis_testFile.dat" added="2011-03-18T23:41:40Z" modified="2011-03-19T00:42:25Z" visited="2011-03-18T23:41:40Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="gedit %U" timestamp="1300491700" count="1"/>
+          <bookmark:application name="gedit" exec="gedit %u" timestamp="1300495345" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/linux/ieng6/ee15w/ee15wag/text_analysis.out" added="2011-03-18T23:41:44Z" modified="2011-03-18T23:41:44Z" visited="2011-03-18T23:41:44Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="gedit %u" timestamp="1300491704" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/linux/ieng6/ee15w/ee15wag/hopscotch.c" added="2011-03-19T01:33:29Z" modified="2011-03-19T01:33:29Z" visited="2011-03-19T01:33:29Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-csrc"/>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="gvim -f %f" timestamp="1300498409" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

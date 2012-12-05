@@ -1,0 +1,29 @@
+HOW TO RUN
+
+	The program is a simple number guessing game. The program asks the user
+	if he/she wants to play the game. Entering any character executes the
+	game, while entering an EOF sequence quits the game.
+	
+	If the user indicates that he/she wants to play, the program asks for a
+	range of integers from which to guess. The program then generates a 
+	random number within the range for the user to guess.
+
+	The user continually makes guesses. With each guess, the program tells
+	the user if the guess is too high or too low. Once the user guesses 
+	right, the program tell how many guesses it took to reach the correct 
+	answer.
+
+	The program then asks if the user wants to play again. If the user
+	enters another character, then the game executes again.
+
+	Once the user enters EOF to quit, the program displays how many games
+	were played and what the average number of guesses per game was.
+
+
+SHORT RESPONSE
+
+	1. The UNIX command is 
+	    rm *.class
+	2. The vim command to cut a full line of text is dd.
+	3. Type "/" followed by the string to be searched, e.g. "/number".
+

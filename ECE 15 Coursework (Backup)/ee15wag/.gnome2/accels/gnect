@@ -1,0 +1,17 @@
+; gnect GtkAccelMap rc-file         -*- scheme -*-
+; this file is an automated accelerator map dump
+;
+; (gtk_accel_path "<Actions>/actions/LeaveFullscreen" "F11")
+; (gtk_accel_path "<Actions>/actions/NewGame" "<Control>n")
+; (gtk_accel_path "<Actions>/actions/About" "")
+; (gtk_accel_path "<Actions>/actions/ViewMenu" "")
+; (gtk_accel_path "<Actions>/actions/Contents" "F1")
+; (gtk_accel_path "<Actions>/actions/UndoMove" "<Control>z")
+; (gtk_accel_path "<Actions>/actions/SettingsMenu" "")
+; (gtk_accel_path "<Actions>/actions/Preferences" "")
+; (gtk_accel_path "<Actions>/actions/Hint" "<Control>h")
+; (gtk_accel_path "<Actions>/actions/Fullscreen" "F11")
+; (gtk_accel_path "<Actions>/actions/Scores" "")
+; (gtk_accel_path "<Actions>/actions/Quit" "<Control>q")
+; (gtk_accel_path "<Actions>/actions/HelpMenu" "")
+; (gtk_accel_path "<Actions>/actions/GameMenu" "")

@@ -1,0 +1,39 @@
+HOW TO RUN
+
+When the program is started, it will prompt the user to enter text to be
+converted into pig latin.
+
+Enter any amount of text and press enter.
+-The program should output the text translated into pig latin according
+ to the following guidelines.
+
+** Guidelines **
+The translation has the following guidelines:
+ -Main translation:
+ 1. If a word consists of only consonants, then the program does not
+    translate the word into pig latin. The word stays the same (except
+    for capitalization).
+ 2. If a word begins with a vowel, an "-ay" is simply appended at
+    the end.
+ 3. If a word begins with a consonant, the initial consonant sound
+    is moved to the end of the word appended with an "ay".
+ 4. Y is considered a vowel unless it is the first letter.
+
+ -Capitalization:
+ 1. The first letter of each word is capitalized.
+ 2. In cases of words that start with consonants, the first consonant is
+    converted to lower case when appended at the end.
+ 3. The cases of all other letters are preserved.
+
+
+The program will keep prompting the user to enter more text until
+an EOF keyboard sequence is entered, in which case the program quits.
+
+
+SHORT RESPONSE
+
+1. It splits the window into two work areas.
+
+2. Pressing "i", "o", or "a".
+
+3. An action that acts on an object or performs a computation.

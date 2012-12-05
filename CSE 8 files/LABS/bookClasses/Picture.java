@@ -1,0 +1,205 @@
+import java.awt.*;
+import java.awt.font.*;
+import java.awt.geom.*;
+import java.awt.image.BufferedImage;
+import java.text.*;
+import java.util.*;
+import java.util.List; // resolves problem with java.awt.List and java.util.List
+
+/**
+ * A class that represents a picture.  This class inherits from 
+ * SimplePicture and allows the student to add functionality to
+ * the Picture class.  
+ * 
+ * Copyright Georgia Institute of Technology 2004-2005
+ * @author Barbara Ericson ericson@cc.gatech.edu
+ */
+public class Picture extends SimplePicture 
+{
+  ///////////////////// constructors //////////////////////////////////
+  
+  /**
+   * Constructor that takes no arguments 
+   */
+  public Picture ()
+  {
+    /* not needed but use it to show students the implicit call to super()
+     * child constructors always call a parent constructor 
+     */
+    super();  
+  }
+  
+  /**
+   * Constructor that takes a file name and creates the picture 
+   * @param fileName the name of the file to create the picture from
+   */
+  public Picture(String fileName)
+  {
+    // let the parent class handle this fileName
+    super(fileName);
+  }
+  
+  /**
+   * Constructor that takes the width and height
+   * @param width the width of the desired picture
+   * @param height the height of the desired picture
+   */
+  public Picture(int width, int height)
+  {
+    // let the parent class handle this width and height
+    super(width,height);
+  }
+  
+  /**
+   * Constructor that takes a picture and creates a 
+   * copy of that picture
+   */
+  public Picture(Picture copyPicture)
+  {
+    // let the parent class do the copy
+    super(copyPicture);
+  }
+  
+  /**
+   * Constructor that takes a buffered image
+   * @param image the buffered image to use
+   */
+  public Picture(BufferedImage image)
+  {
+    super(image);
+  }
+  
+  ////////////////////// methods ///////////////////////////////////////
+  
+  /**
+   * Method to return a string with information about this picture.
+   * @return a string with information about the picture such as fileName,
+   * height and width.
+   */
+  public String toString()
+  {
+    String output = "Picture, filename " + getFileName() + 
+      " height " + getHeight() 
+      + " width " + getWidth();
+    return output;
+    
+  }
+  
+ 
+  /*
+   * Lab2b: -- Code for makeRed to be copied into Picture.java
+   */
+
+  public void makeRed()
+  {
+    Pixel[] pixelArray = getPixels();
+    for (Pixel pixelObj : pixelArray)
+    {
+      pixelObj.setRed(0);
+      pixelObj.setBlue(255);
+      pixelObj.setGreen(0);
+    }
+  }
+
+  public void simpleGrayscale()
+{
+  Pixel[] pixelArray = getPixels();
+  Pixel pixelObj;
+  int index = 0;
+ 
+  while ( index < pixelArray.length )
+  {
+    // System.out.println("index is: " + index);
+
+    pixelObj = pixelArray[index];
+    int value = 
+        (pixelObj.getRed() + pixelObj.getGreen() + pixelObj.getBlue()) / 3;
+
+    pixelObj.setRed(value);
+    pixelObj.setGreen(value);
+    pixelObj.setBlue(value);
+    index++;
+ 
+  }
+  }
+  
+public void simpleGrayscaleVersion2()
+{
+  Pixel[] pixelArray = getPixels();
+  Pixel pixelObj;
+ 
+  for ( int index = 0; index < pixelArray.length; index++)
+  {
+    // System.out.println("index is: " + index);
+
+    pixelObj = pixelArray[index];
+    int value = 
+        (pixelObj.getRed() + pixelObj.getGreen() + pixelObj.getBlue()) / 3;
+
+    pixelObj.setRed(value);
+    pixelObj.setGreen(value);
+    pixelObj.setBlue(value);
+  }
+}
+  
+public void createForLab4B(Picture p1, Picture p2)
+  {
+    Pixel sourcePix, targetPix;
+    
+    int targetX = 0;
+    int targetY = 0;
+    
+    for (int sourceX = 0;  sourceX < p1.getWidth(); sourceX++)
+    {
+      targetY = 0;
+      for (int sourceY = 0; sourceY < p1.getHeight();  sourceY++)
+      {
+        sourcePix = p1.getPixel(sourceX, sourceY);
+        targetPix = this.getPixel(targetX, targetY);
+        targetPix.setColor(sourcePix.getColor());
+        targetY++;
+      }
+      targetX++;
+    }
+    
+    //System.out.println("Last width of p1 copied into calling object: " + (p1.getWidth()-1));
+    
+    targetY = 0;
+    targetX = p1.getWidth();
+    
+    for (int sourceX = 0;  sourceX < p2.getWidth(); sourceX++)
+    {
+      targetY = 0;
+      for (int sourceY = 0; sourceY < p2.getHeight();  sourceY++)
+      {
+        sourcePix = p2.getPixel(sourceX, sourceY);
+        targetPix = this.getPixel(targetX, targetY);
+        targetPix.setColor(sourcePix.getColor());
+        targetY++;
+      }
+      targetX++;
+    }
+}
+    
+      public Picture greenToRed()
+  {
+     Picture newPic = new Picture(this);
+     System.out.println("New picture width: " + newPic.getWidth());
+     System.out.println("New picture height: " + newPic.getHeight());
+     Color red = new Color(255,0,0);
+     
+     Pixel[] pixelArray = this.getPixels();
+     Pixel[] newPicArray = newPic.getPixels();
+     
+     for (int i = 0; i < newPicArray.length; i++)
+     {
+        if (pixelArray[i].getGreen() > 130)
+        {
+           newPicArray[i].setColor(red);
+        }
+     }
+     return newPic;
+  }
+ 
+} // this } is the end of class Picture, put all new methods before this
+ 

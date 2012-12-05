@@ -1,0 +1,102 @@
+public class Participant
+{
+  
+  private String name;
+  private int weight;
+  private double height;
+  
+  public Participant()
+  {
+    name = "Joe Bob";
+    weight = 1;
+    height = 1.0;
+  }
+  
+  public Participant(String name)
+  {
+    this.name = name;
+    weight = 1;
+    height = 1.0;
+  }
+  
+  public Participant(String name, int weight, double height)
+  {
+    this.name = name;
+    
+    if( weight <= 0 )
+    {
+      System.out.println("Incorrect weight, weight must be positive. Weight will not be updated.");
+      this.weight = 1;
+    }
+    else
+    {
+      this.weight = weight;
+    }
+    
+    if( height <= 0.0 )
+    {
+      System.out.println("Incorrect height, height must be positive. Height will not be updated.");
+      this.height = 1.0;
+    }
+    else
+    {
+      this.height = height;
+    }
+  }
+  
+  public String getName()
+  {
+    return this.name;
+  }
+  
+  public void setName( String name)
+  {
+    this.name = name;
+  }
+  
+  public int getWeight()
+  {
+    return this.weight;
+  }
+  
+  public void setWeight(int weight)
+  {
+    if( weight <= 0 )
+      System.out.println("Incorrect weight, weight must be positive. Weight will not be updated.");
+    else
+      this.weight = weight;
+  }
+  
+  public double getHeight()
+  {
+    return this.height;
+  }
+  
+  public void setHeight(double height)
+  {
+    if (height <= 0.0)
+      System.out.println("Incorrect height, height must be positive. Height will not be updated.");
+    else
+      this.height = height;
+  }
+  
+  public String toString()
+  {
+    String s = "Participant:\n"
+             + "Name: " + this.name + "\n"
+             + "Weight: " + this.weight + "\n"
+             + "Height: " + this.height + "\n";
+    
+    return s;
+  }
+  
+  public double getBMI()
+  {
+    double BMI = this.weight*703/(this.height*this.height);
+    
+    return BMI;
+  }
+
+
+
+}

@@ -1,0 +1,9 @@
+; gataxx GtkAccelMap rc-file         -*- scheme -*-
+; this file is an automated accelerator map dump
+;
+; (gtk_accel_path "<gataxx>/_Settings/Prefere_nces" "")
+; (gtk_accel_path "<gataxx>/help-contents-item" "F1")
+; (gtk_accel_path "<gataxx>/_Help/_About" "")
+; (gtk_accel_path "<gataxx>/_Game/_Undo Move" "<Control>z")
+; (gtk_accel_path "<gataxx>/_Game/_New Game" "<Control>n")
+; (gtk_accel_path "<gataxx>/_Game/_Quit" "<Control>q")

@@ -1,0 +1,40 @@
+HOW TO RUN:
+
+-Reverse Recurse
+	This program reverses the integers that a user enters using two different
+	recursive methods
+
+	Enter a maximum number of integers that you wish to enter. This value must
+	be greater than 0. The java application will exit if you enter EOF or a non-
+	integer input.
+
+	The program will prompt you to enter up to how ever many integers you
+	specified. Begin entering integers. You may enter EOF or a non-integer input
+	at any time before you enter the maximum amount of integers.
+
+	The program will display the results of the original array and the reversals
+	of the array after you enter EOF, a non-integer input, or entering the
+	maximum amount of integers.
+
+-Print English
+	This program prints the English words and letters of a number in the user-
+	specified base.
+
+	The program will prompt you to enter a number. Enter any integer.
+	The program will then prompt you to enter a base for the number. The base
+	must be between 2 and 36. (The program will prompt you to try again if
+	the base you entered is invalid).
+
+	It will then print the English words and letters of the number you entered
+	in the base you entered.
+
+	The program will then prompt you again to enter a number. Enter EOF at any
+	time you see this prompt to quit.
+
+SHORT RESPONSE
+	1. The command >i{ will indent an entire curly-bracket block one level.
+	   The command <i{ will de-indent the block/shift it back.
+	2. To find the size in bytes of all files in the current directory in
+	   ascending order, enter ls -l -S -r. -l displays the files in long format,
+	   including file size. -S sorts according to file size in descending order.
+	   -r reverses the order into ascending order.

@@ -1,0 +1,37 @@
+HOW TO RUN
+	This program displays statistical and graphical information relating
+	to the popularity of names in the years 1880-2009.
+	The program will prompt you if you would like view statistics for a
+	name. Enter any character to see statistics, otherwise enter the
+	EOF keyboard sequence.
+	If you would like to view statistics, the program will ask you
+	to enter a name for which data is to be displayed.
+	Enter a name, first letter capitalized, the rest of the letters
+	lower-case.
+	The program will then ask you to enter a start year. Enter a start
+	year between 1880 and 2009. If your input is invalid, the program
+	will tell you what is wrong with your input and prompt you again.
+	The program will then ask you to enter an end year. Enter an end year
+	between your start year and 2009. Once again, the program will reprompt
+	you if your input is incorrect.
+
+	The program will then print female and male popularity ranks for the 
+	name you entered between your desired start year and end year,inclusive
+	It will also create a line graph in a new window that shows the
+	popularity of your name between your inputted year range.
+
+	Every time after this information is displayed, the program will ask
+	if you would like to continue. To quit, enter the EOF keyboard
+	sequence at this time. Otherwise, enter any character.
+		Note: Close all drawing panel windows in order to quit.
+
+SHORT RESPONSE
+	
+	1. The this in regards to variables distinguishes between class
+	   fields and formal parameters, as in constructors and mutator
+	   methods.
+	2. Static in regards to methods means that the method does not
+	   require a calling object in order to be run. It can be called
+	   without a reference qualifier.
+	3. There is not this in static methods because they don't need to
+	   refer to any class object.

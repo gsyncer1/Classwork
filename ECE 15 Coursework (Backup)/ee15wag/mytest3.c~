@@ -1,0 +1,39 @@
+Enter the desired word length:#include <stdio.h>
+#define MIN_CHARS 7
+
+int main()
+{
+  char natural_abra[5] = {'a', 'b', 'c', 'd', 'r'};
+  char key[5];
+  char input_chars[MIN_CHARS], out_chars[MIN_CHARS];
+  int i, j, valid_chars = 0;
+
+  printf("Enter key: ");
+  for (i = 0; i < 5; i++) key[i] = getchar();
+
+  getchar();
+
+  printf("Enter word: ");
+  for (i = 0; i < MIN_CHARS; i++) input_chars[i] = getchar();
+  while(getchar() != '\n');
+  for (j = 0; j < 5; j++)
+     for (i = 0; i < MIN_CHARS; i++)
+        if (natural_abra[j] == input_chars[i]) valid_chars++;
+  if (valid_chars != MIN_CHARS)
+  {
+     printf("You did not speak in ABRACADABRA to me!\n");
+     return 1;
+  }
+  else
+  {
+     for (j = 0; j < 5; j++)
+        for (i = 0; i < MIN_CHARS; i++)
+           if (input_chars[i] == natural_abra[j])
+              out_chars[i] = key[j];
+
+     printf("Encrypted word: ");
+     for (i = 0; i < MIN_CHARS; i++) printf("%c", out_chars[i]);
+     printf("\n");
+  }
+  return 0;
+}

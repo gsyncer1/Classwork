@@ -1,0 +1,987 @@
+<?xml version="1.0"?>
+<omfindex>
+  <dir>
+    <name>/usr/share/omf/gnome-doc-xslt</name>
+    <omffile>
+      <path>/usr/share/omf/gnome-doc-xslt/gnome-doc-xslt-C.omf</path>
+      <url>file:///usr/share/gnome/help/gnome-doc-xslt/C/gnome-doc-xslt.xml</url>
+      <title>GNOME Documentation XSLT Manual</title>
+      <language>C</language>
+      <category>System|Other</category>
+      <description>
+      The GNOME Documentation XSLT stylesheets were created to provide fast DocBook to HTML
+      conversion for real-time document viewing in GNOME's help browser, Yelp.
+    </description>
+      <seriesid>adc33656-82cd-11d8-842e-ea94c94967c5</seriesid>
+    </omffile>
+  </dir><dir>
+    <name>/usr/share/omf/gnome-doc-make</name>
+    <omffile>
+      <path>/usr/share/omf/gnome-doc-make/gnome-doc-make-C.omf</path>
+      <url>file:///usr/share/gnome/help/gnome-doc-make/C/gnome-doc-make.xml</url>
+      <title>GNOME Documentation Build Utilities</title>
+      <language>C</language>
+      <category>System|Other</category>
+      <description>
+      The GNOME Documentation Build Utilities were created to make it
+      easier for application developers to include and create documentation in
+      their releases.
+    </description>
+      <seriesid>c43c0c16-d122-11d8-956b-d5cfacf6c3e8</seriesid>
+    </omffile>
+  </dir><dir>
+    <name>/usr/share/omf/scrollkeeper</name>
+    <omffile>
+      <path>/usr/share/omf/scrollkeeper/writing_scrollkeeper_omf_files-C.omf</path>
+      <url>file:/usr/share/scrollkeeper/doc/writing_scrollkeeper_omf_files/C/writing_scrollkeeper_omf_files.xml</url>
+      <title>
+      Writing ScrollKeeper OMF Files
+    </title>
+      <language>C</language>
+      <category>System|Other</category>
+      <description>
+      Describes the OMF and how to write OMF files for use with ScrollKeeper.
+    </description>
+      <seriesid>07d9bcd8-2370-11d6-9370-8d01a4322bea</seriesid>
+    </omffile>
+  </dir><dir>
+    <name>/usr/share/omf/gdm</name>
+    <omffile>
+      <path>/usr/share/omf/gdm/gdm-C.omf</path>
+      <url>file:///usr/share/gnome/help/gdm/C/gdm.xml</url>
+      <title>Gnome Display Manager Reference Manual</title>
+      <language>C</language>
+      <category>GNOME|System</category>
+      <description>
+      
+        GDM is the GNOME Display Manager, a graphical login program.
+      
+    </description>
+      <seriesid>61d86786-ba0d-11d7-9eda-8a77bf52d52a</seriesid>
+    </omffile>
+  </dir><dir>
+    <name>/usr/share/omf/totem</name>
+    <omffile>
+      <path>/usr/share/omf/totem/totem-C.omf</path>
+      <url>file:/usr/share/gnome/help/totem/C/totem.xml</url>
+      <title>
+      Totem Movie Player
+    </title>
+      <language>C</language>
+      <category>GNOME|Multimedia</category>
+      <description>
+      User manual for the Totem Movie Player.
+    </description>
+      <seriesid>d4b0b4a6-f3f7-11d7-871e-ae68a0a02055</seriesid>
+    </omffile>
+  </dir><dir>
+    <name>/usr/share/omf/gnome-games</name>
+    <omffile>
+      <path>/usr/share/omf/gnome-games/gnotski-C.omf</path>
+      <url>file:/usr/share/gnome/help/gnotski/C/gnotski.xml</url>
+      <title>
+     GNOME Klotski Manual
+   </title>
+      <language>C</language>
+      <category>GNOME|Games</category>
+      <description></description>
+      <seriesid>948b45bc-b5c3-11d6-870d-ce2cbe999e76</seriesid>
+    </omffile><omffile>
+      <path>/usr/share/omf/gnome-games/gtali-C.omf</path>
+      <url>file:/usr/share/gnome/help/gtali/C/gtali.xml</url>
+      <title>
+     Gtali Manual
+   </title>
+      <language>C</language>
+      <category>GNOME|Games</category>
+      <description>
+    GNOME Tali is a sort of poker with dice and less money. You roll five dice three times and try to create the best hand. Your two rerolls may include any or all of your dice.
+   </description>
+      <seriesid>4f2f826e-6008-11d6-9c7e-99b79109f703</seriesid>
+    </omffile><omffile>
+      <path>/usr/share/omf/gnome-games/iagno-C.omf</path>
+      <url>file:/usr/share/gnome/help/iagno/C/iagno.xml</url>
+      <title>
+     The Iagno Manual
+   </title>
+      <language>C</language>
+      <category>GNOME|Games</category>
+      <description>
+    Iagno is a computer version of the game Reversi, more popularly called Othello.
+   </description>
+      <seriesid>a4db0e44-6009-11d6-897e-a50fcdebe813</seriesid>
+    </omffile><omffile>
+      <path>/usr/share/omf/gnome-games/gnomine-C.omf</path>
+      <url>file:/usr/share/gnome/help/gnomine/C/gnomine.xml</url>
+      <title>
+     GNOME Mines Manual
+   </title>
+      <language>C</language>
+      <category>GNOME|Games</category>
+      <description>
+    GNOME Mines is a variation of the popular logic puzzle minesweeper.
+   </description>
+      <seriesid>54d3211e-6006-11d6-9a4c-97ceaf12a926</seriesid>
+    </omffile><omffile>
+      <path>/usr/share/omf/gnome-games/same-gnome-C.omf</path>
+      <url>file:/usr/share/gnome/help/same-gnome/C/same-gnome.xml</url>
+      <title>
+      Same-GNOME Manual
+    </title>
+      <language>C</language>
+      <category>GNOME|Games</category>
+      <description>
+      Same GNOME is a puzzle game. The goal is to remove as many objects as possible in as few moves as possible.
+    </description>
+      <seriesid>224b6526-600b-11d6-941f-e18c189076c5</seriesid>
+    </omffile><omffile>
+      <path>/usr/share/omf/gnome-games/blackjack-C.omf</path>
+      <url>file:/usr/share/gnome/help/blackjack/C/blackjack.xml</url>
+      <title>
+     Blackjack Manual
+   </title>
+      <language>C</language>
+      <category>GNOME|Games</category>
+      <description>
+    Blackjack is a casino rules, multiple deck blackjack game for the GNOME
+    Project.  The object of the game is to obtain a hand value that is closer
+    to 21 than that of the dealer, without going over 21.
+   </description>
+      <seriesid>871c9eac-5ff2-11d6-9e71-a18a9688cdd9</seriesid>
+    </omffile><omffile>
+      <path>/usr/share/omf/gnome-games/aisleriot-C.omf</path>
+      <url>file:/usr/share/gnome/help/aisleriot/C/aisleriot.xml</url>
+      <title>
+     The Aisleriot Manual
+   </title>
+      <language>C</language>
+      <category>GNOME|Games</category>
+      <description>
+    AisleRiot (also known as Solitaire or sol) is a collection of card games which are easy to play with the aid of a mouse.
+   </description>
+      <seriesid>871c9eac-5ff2-11d6-9e71-a18a9688cdd9</seriesid>
+    </omffile><omffile>
+      <path>/usr/share/omf/gnome-games/gnotravex-C.omf</path>
+      <url>file:/usr/share/gnome/help/gnotravex/C/gnotravex.xml</url>
+      <title>
+     GNOME Tetravex Manual
+   </title>
+      <language>C</language>
+      <category>GNOME|Games</category>
+      <description>
+    GNOME Tetravex is a simple puzzle where pieces must be positioned so that the same numbers are touching each other. Your game is timed, these times are stored in a system-wide scoreboard.
+   </description>
+      <seriesid>fc3c32d8-6006-11d6-9adc-99ee72e79490</seriesid>
+    </omffile><omffile>
+      <path>/usr/share/omf/gnome-games/gnect-C.omf</path>
+      <url>file:/usr/share/gnome/help/gnect/C/gnect.xml</url>
+      <title>
+     Four-in-a-row Manual
+   </title>
+      <language>C</language>
+      <category>GNOME|Games</category>
+      <description>
+    The object of Four-in-a-row is to build a line of four of your marbles while trying to stop your opponent (human or computer) building a line of his or her own. A line can be horizontal, vertical or diagonal.
+   </description>
+      <seriesid>3a0aaacc-6002-11d6-9162-bcb250f35bf0</seriesid>
+    </omffile><omffile>
+      <path>/usr/share/omf/gnome-games/gnibbles-C.omf</path>
+      <url>file:/usr/share/gnome/help/gnibbles/C/gnibbles.xml</url>
+      <title>
+     Nibbles Manual
+   </title>
+      <language>C</language>
+      <category>GNOME|Games</category>
+      <description>
+    Nibbles is a game where the user controls a snake. The snake moves around the board, eating diamonds while avoiding the walls placed around it.
+   </description>
+      <seriesid>89492d6a-6003-11d6-85a6-fefb5dcd9c5d</seriesid>
+    </omffile><omffile>
+      <path>/usr/share/omf/gnome-games/glines-C.omf</path>
+      <url>file:/usr/share/gnome/help/glines/C/glines.xml</url>
+      <title>
+     Five or More Manual
+   </title>
+      <language>C</language>
+      <category>GNOME|Games</category>
+      <description>
+    Five of More, is the GNOME port of the once popular Windows game called Color Lines. The game's objective is to align as often as possible five balls or more of the same color causing them to disappear, play as long as possible, and be #1 in the High Scores.
+   </description>
+      <seriesid>1f44f7a0-5ffe-11d6-969e-bc780d867e8b</seriesid>
+    </omffile><omffile>
+      <path>/usr/share/omf/gnome-games/mahjongg-C.omf</path>
+      <url>file:/usr/share/gnome/help/mahjongg/C/mahjongg.xml</url>
+      <title>
+     Mahjongg Manual
+   </title>
+      <language>C</language>
+      <category>GNOME|Games</category>
+      <description>
+    GNOME Mahjongg, or Mahjongg for short, is a solitaire (one player) version of the classic Eastern tile game, Mahjongg.
+   </description>
+      <seriesid>67884844-600a-11d6-93a3-cf9f9ec0c847</seriesid>
+    </omffile><omffile>
+      <path>/usr/share/omf/gnome-games/gataxx-C.omf</path>
+      <url>file:/usr/share/gnome/help/gataxx/C/gataxx.xml</url>
+      <title>
+     The Ataxx Manual
+   </title>
+      <language>C</language>
+      <category>GNOME|Games</category>
+      <description>
+    Ataxx, part of the GNOME-games suite of games, is a relative of other disc-flipping games such as Iagno. Ataxx, however, begins at the corners, rather than at the center of the board, and has slightly different rules for adding and moving discs.
+   </description>
+      <seriesid>2a582b6a-5ffb-11d6-9b6c-9ae25e50fc6c</seriesid>
+    </omffile><omffile>
+      <path>/usr/share/omf/gnome-games/gnobots2-C.omf</path>
+      <url>file:/usr/share/gnome/help/gnobots2/C/gnobots2.xml</url>
+      <title>
+     GNOME Robots Manual
+   </title>
+      <language>C</language>
+      <category>GNOME|Games</category>
+      <description>
+    GNOME Robots is a development of the text based robots game which can be found on a number of UNIX systems.
+   </description>
+      <seriesid>77bb3236-6004-11d6-84bd-d39d8ccd664e</seriesid>
+    </omffile>
+  </dir><dir>
+    <name>/usr/share/omf/gtk-doc</name>
+    <omffile>
+      <path>/usr/share/omf/gtk-doc/gtk-doc-manual-C.omf</path>
+      <url>file:/gtk-doc-manual.xml</url>
+      <title>
+      GTK-Doc Manual
+    </title>
+      <language>C</language>
+      <category>GNOME|Development</category>
+      <description>
+      User manual for developers with instructions of GTK-Doc usage.
+    </description>
+      <seriesid>04ecd20e-775e-11d9-81af-a7c5a5fa91f6</seriesid>
+    </omffile>
+  </dir><dir>
+    <name>/usr/share/omf/gnome-search-tool</name>
+    <omffile>
+      <path>/usr/share/omf/gnome-search-tool/gnome-search-tool-C.omf</path>
+      <url>file:///usr/share/gnome/help/gnome-search-tool/C/gnome-search-tool.xml</url>
+      <title>Search for Files Manual</title>
+      <language>C</language>
+      <category>GNOME|Utilities</category>
+      <description>
+      
+    	A search tool to find files, folders and documents on your computer.
+      
+    </description>
+      <seriesid>f045d148-40e7-11d6-90eb-bd264bddd711</seriesid>
+    </omffile>
+  </dir><dir>
+    <name>/usr/share/omf/gfloppy</name>
+    <omffile>
+      <path>/usr/share/omf/gfloppy/gfloppy-C.omf</path>
+      <url>file:///usr/share/gnome/help/gfloppy/C/gfloppy.xml</url>
+      <title>Floppy Formatter Manual</title>
+      <language>C</language>
+      <category>GNOME|Utilities</category>
+      <description>
+      Floppy Formatter, also known as Gfloppy, formats floppy disks for use in Linux.
+    </description>
+      <seriesid>c13ed0ce-5731-11d6-86cc-c769addc7b88</seriesid>
+    </omffile>
+  </dir><dir>
+    <name>/usr/share/omf/control-center</name>
+    <omffile>
+      <path>/usr/share/omf/control-center/control-center-C.omf</path>
+      <url>file:///usr/share/gnome/help/control-center/C/control-center.xml</url>
+      <title>Control Center</title>
+      <language>C</language>
+      <category>GNOME|Utilities</category>
+      <description>
+      
+        The GNOME Control Center provides a central place for the user to setup their GNOME experience. It can let you configure anything from the behavior of your window borders to the default font type.
+      
+    </description>
+      <seriesid>e9bfb3ba-fe90-11d9-9eb2-8beabbd95e64</seriesid>
+    </omffile>
+  </dir><dir>
+    <name>/usr/share/omf/zenity</name>
+    <omffile>
+      <path>/usr/share/omf/zenity/zenity-C.omf</path>
+      <url>file:///usr/share/gnome/help/zenity/C/zenity.xml</url>
+      <title>Zenity Manual</title>
+      <language>C</language>
+      <category>GNOME|Utilities</category>
+      <description>
+            Zenity is a rewrite of gdialog, the GNOME port of dialog which allows you to 
+                  display dialog boxes from the commandline and shell scripts.
+            
+    </description>
+      <seriesid>1e4f989c-287a-11d7-84e2-b1f3b939ba73</seriesid>
+    </omffile>
+  </dir><dir>
+    <name>/usr/share/omf/planner</name>
+    <omffile>
+      <path>/usr/share/omf/planner/planner-C.omf</path>
+      <url>file:/usr/share/gnome/help/planner/C/planner.xml</url>
+      <title>
+      Planner User Guide
+    </title>
+      <language>C</language>
+      <category>GNOME|Applications</category>
+      <description>
+          User Guide for Planner
+    </description>
+      <seriesid>517f551c-b490-11d6-9295-da147643ae57</seriesid>
+    </omffile>
+  </dir><dir>
+    <name>/usr/share/omf/gnome-pilot</name>
+    <omffile>
+      <path>/usr/share/omf/gnome-pilot/gnome-pilot-C.omf</path>
+      <url>file:/usr/share/gnome/help/gnome-pilot/C/gnome-pilot.xml</url>
+      <title>
+      Guide to PalmOS Device Synchronization Tools
+    </title>
+      <language>C</language>
+      <category>GNOME|Applications</category>
+      <description>
+	A user's guide to the gnome-pilot tools for use with PalmOS handheld devices.
+    </description>
+      <seriesid>4b665ac2-7cb3-11d7-9af8-a0c7edebb5bb</seriesid>
+    </omffile>
+  </dir><dir>
+    <name>/usr/share/omf/gnome-terminal</name>
+    <omffile>
+      <path>/usr/share/omf/gnome-terminal/gnome-terminal-C.omf</path>
+      <url>file:///usr/share/gnome/help/gnome-terminal/C/gnome-terminal.xml</url>
+      <title>GNOME Terminal Manual</title>
+      <language>C</language>
+      <category>GNOME|Applications|System Tools</category>
+      <description>
+       
+	 User manual for the GNOME Terminal application.
+       
+     </description>
+      <seriesid>d7834910-40e7-11d6-87e4-aa5f78e530ae</seriesid>
+    </omffile>
+  </dir><dir>
+    <name>/usr/share/omf/gnome-system-monitor</name>
+    <omffile>
+      <path>/usr/share/omf/gnome-system-monitor/gnome-system-monitor-C.omf</path>
+      <url>file:/usr/share/gnome/help/gnome-system-monitor/C/gnome-system-monitor.xml</url>
+      <title>
+      System Monitor Manual V2.1
+    </title>
+      <language>C</language>
+      <category>GNOME|Applications|System Tools</category>
+      <description>
+      User manual for the System Monitor application. 
+    </description>
+      <seriesid>0beef4ba-5ca4-11d6-9d4d-e07a2388f7ea</seriesid>
+    </omffile>
+  </dir><dir>
+    <name>/usr/share/omf/gnome-system-log</name>
+    <omffile>
+      <path>/usr/share/omf/gnome-system-log/gnome-system-log-C.omf</path>
+      <url>file:///usr/share/gnome/help/gnome-system-log/C/gnome-system-log.xml</url>
+      <title>System Log Viewer Manual</title>
+      <language>C</language>
+      <category>GNOME|Applications|System Tools</category>
+      <description>
+      System Log Viewer is a graphical, menu-driven viewer that you can
+      use to view and monitor your system log files.
+    </description>
+      <seriesid>89dec73e-963c-11d6-9597-e9072c5fff6d</seriesid>
+    </omffile>
+  </dir><dir>
+    <name>/usr/share/omf/baobab</name>
+    <omffile>
+      <path>/usr/share/omf/baobab/baobab-C.omf</path>
+      <url>file:///usr/share/gnome/help/baobab/C/baobab.xml</url>
+      <title>Disk Usage Analyzer Manual</title>
+      <language>C</language>
+      <category>GNOME|Applications|System Tools</category>
+      <description>
+      Disk Usage Analyzer is a graphical, menu-driven viewer that you can
+      use to view and monitor your disk usage and folder structure.
+    </description>
+      <seriesid>196f8340-d2c8-11da-9519-df1aa4a99e74</seriesid>
+    </omffile>
+  </dir><dir>
+    <name>/usr/share/omf/rhythmbox</name>
+    <omffile>
+      <path>/usr/share/omf/rhythmbox/rhythmbox-C.omf</path>
+      <url>file:///usr/share/gnome/help/rhythmbox/C/rhythmbox.xml</url>
+      <title>Rhythmbox Music Player Manual V2.0.2</title>
+      <language>C</language>
+      <category>GNOME|Applications|Sound and Video</category>
+      <description>
+     Rhythmbox is the full featured music player for GNOME Desktop.
+   </description>
+      <seriesid>cf2bed6a-3e28-11d6-88f3-c2f7a14f1d6d</seriesid>
+    </omffile>
+  </dir><dir>
+    <name>/usr/share/omf/sound-juicer</name>
+    <omffile>
+      <path>/usr/share/omf/sound-juicer/sound-juicer-C.omf</path>
+      <url>file:///usr/share/gnome/help/sound-juicer/C/sound-juicer.xml</url>
+      <title>Sound Juicer Manual</title>
+      <language>C</language>
+      <category>GNOME|Applications|Sound and Video</category>
+      <description>
+      This manual describes the use of Sound Juicer.
+    </description>
+      <seriesid>f5b1de52-afee-11d7-813f-fcb0fd1dad15</seriesid>
+    </omffile>
+  </dir><dir>
+    <name>/usr/share/omf/gnome-media</name>
+    <omffile>
+      <path>/usr/share/omf/gnome-media/gnome-cd-C.omf</path>
+      <url>file:/usr/share/gnome/help/gnome-cd/C/gnome-cd.xml</url>
+      <title>
+      CD Player Manual V2.6
+    </title>
+      <language>C</language>
+      <category>GNOME|Applications|Sound and Video</category>
+      <description>
+      User manual for CD Player. 
+    </description>
+      <seriesid>b9e5caae-6437-11d6-9e62-8b945ed9d489</seriesid>
+    </omffile><omffile>
+      <path>/usr/share/omf/gnome-media/gnome-volume-control-C.omf</path>
+      <url>file:/usr/share/gnome/help/gnome-volume-control/C/gnome-volume-control.xml</url>
+      <title>
+      GNOME Volume Control V2.1
+    </title>
+      <language>C</language>
+      <category>GNOME|Applications|Sound and Video</category>
+      <description>
+      User manual for the GNOME Volume Control application.
+    </description>
+      <seriesid>29373b86-71da-11d6-8ef4-86f9340ccc37</seriesid>
+    </omffile><omffile>
+      <path>/usr/share/omf/gnome-media/gstreamer-properties-C.omf</path>
+      <url>file:/usr/share/gnome/help/gstreamer-properties/C/gstreamer-properties.xml</url>
+      <title>
+      GStreamer Properties
+    </title>
+      <language>C</language>
+      <category>GNOME|Applications|Sound and Video</category>
+      <description>
+      User manual for GStreamer Properties. 
+    </description>
+      <seriesid>ab608794-6437-11d6-8710-e52e6a5e9920</seriesid>
+    </omffile>
+  </dir><dir>
+    <name>/usr/share/omf/glade-2</name>
+    <omffile>
+      <path>/usr/share/omf/glade-2/glade-user-guide-C.omf</path>
+      <url>file:/usr/share/gnome/help/glade-2/C/glade-user-guide.xml</url>
+      <title>
+      Glade Manual V2.1
+    </title>
+      <language>C</language>
+      <category>GNOME|Applications|Programming</category>
+      <description>
+      User manual for the Glade application. 
+    </description>
+      <seriesid>15c7f60c-3093-11d8-924d-b89741557cdb</seriesid>
+    </omffile><omffile>
+      <path>/usr/share/omf/glade-2/glade-faq-C.omf</path>
+      <url>file:/usr/share/gnome/help/glade-2/C/glade-faq.xml</url>
+      <title>
+      Glade FAQ
+    </title>
+      <language>C</language>
+      <category>GNOME|Applications|Programming</category>
+      <description>
+      Frequently Asked Questions list for the Glade application. 
+    </description>
+      <seriesid>2619c82a-a636-11d6-8522-d29c286dcc64</seriesid>
+    </omffile>
+  </dir><dir>
+    <name>/usr/share/omf/ekiga</name>
+    <omffile>
+      <path>/usr/share/omf/ekiga/ekiga-C.omf</path>
+      <url>file:///usr/share/gnome/help/ekiga/C/ekiga.xml</url>
+      <title>Ekiga Manual 2.00 </title>
+      <language>C</language>
+      <category>GNOME|Applications|Internet</category>
+      <description>
+User manual for the Ekiga Voice over IP, IP Telephony and Video-Conferencing application
+</description>
+      <seriesid>b6b4b4d4-534b-11d9-945f-dfc3b6f835c4</seriesid>
+    </omffile>
+  </dir><dir>
+    <name>/usr/share/omf/eog</name>
+    <omffile>
+      <path>/usr/share/omf/eog/eog-C.omf</path>
+      <url>file:///usr/share/gnome/help/eog/C/eog.xml</url>
+      <title>Image Viewer Manual</title>
+      <language>C</language>
+      <category>GNOME|Applications|Graphics</category>
+      <description>
+      User manual for Eye of GNOME, the GNOME image viewer.
+    </description>
+      <seriesid>b368da3a-2acc-11d6-82aa-c98d986e621f</seriesid>
+    </omffile>
+  </dir><dir>
+    <name>/usr/share/omf/evince</name>
+    <omffile>
+      <path>/usr/share/omf/evince/evince-C.omf</path>
+      <url>file:///usr/share/gnome/help/evince/C/evince.xml</url>
+      <title>Evince Document Viewer Manual </title>
+      <language>C</language>
+      <category>GNOME|Applications|Graphics</category>
+      <description>
+       
+         The Evince Document Viewer application enables you to view documents of various formats like Portable 
+         Document Format (PDF) files and PostScript files
+      
+    </description>
+      <seriesid>62118a88-a670-11d9-9d16-8c554140c753</seriesid>
+    </omffile>
+  </dir><dir>
+    <name>/usr/share/omf/gthumb</name>
+    <omffile>
+      <path>/usr/share/omf/gthumb/gthumb-C.omf</path>
+      <url>file:/usr/share/gnome/help/gthumb/C/gthumb.xml</url>
+      <title>
+      gThumb Manual V2.2
+    </title>
+      <language>C</language>
+      <category>GNOME|Applications|Graphics</category>
+      <description>
+      User manual for the gThumb image viewer. 
+    </description>
+      <seriesid>4d60fcae-643d-11d6-847d-be863f3eea7a</seriesid>
+    </omffile>
+  </dir><dir>
+    <name>/usr/share/omf/gedit</name>
+    <omffile>
+      <path>/usr/share/omf/gedit/gedit-C.omf</path>
+      <url>file:///usr/share/gnome/help/gedit/C/gedit.xml</url>
+      <title>Gedit Manual</title>
+      <language>C</language>
+      <category>GNOME|Applications|Accessories</category>
+      <description>
+      gedit is the GNOME text editor.
+    </description>
+      <seriesid>081c7e56-2acd-11d6-819f-e6a1118e62db</seriesid>
+    </omffile>
+  </dir><dir>
+    <name>/usr/share/omf/file-roller</name>
+    <omffile>
+      <path>/usr/share/omf/file-roller/file-roller-C.omf</path>
+      <url>file:///usr/share/gnome/help/file-roller/C/file-roller.xml</url>
+      <title>Archive Manager Manual</title>
+      <language>C</language>
+      <category>GNOME|Applications|Accessories</category>
+      <description>
+       You can use the Archive Manager, also known as File Roller, to create, view, modify, or unpack an archive.
+     </description>
+      <seriesid>dffe1822-789b-11d6-842e-812e852e3415</seriesid>
+    </omffile>
+  </dir><dir>
+    <name>/usr/share/omf/gnome-dictionary</name>
+    <omffile>
+      <path>/usr/share/omf/gnome-dictionary/gnome-dictionary-C.omf</path>
+      <url>file:///usr/share/gnome/help/gnome-dictionary/C/gnome-dictionary.xml</url>
+      <title>Dictionary Manual</title>
+      <language>C</language>
+      <category>GNOME|Applications|Accessories</category>
+      <description>
+      
+        Dictionary enables you to look up definitions and correct spellings
+        of words.
+      
+    </description>
+      <seriesid>1ecf16b8-675f-11da-8538-e2da790b69ab</seriesid>
+    </omffile>
+  </dir><dir>
+    <name>/usr/share/omf/gcalctool</name>
+    <omffile>
+      <path>/usr/share/omf/gcalctool/gcalctool-C.omf</path>
+      <url>file:///usr/share/gnome/help/gcalctool/C/gcalctool.xml</url>
+      <title>Calculator Manual V2.9</title>
+      <language>C</language>
+      <category>GNOME|Applications|Accessories</category>
+      <description>
+      
+	User manual for the gcalctool application. 
+      
+    </description>
+      <seriesid>52191642-4f23-11d7-95c8-9792b4e62685</seriesid>
+    </omffile>
+  </dir><dir>
+    <name>/usr/share/omf/gucharmap</name>
+    <omffile>
+      <path>/usr/share/omf/gucharmap/gucharmap-C.omf</path>
+      <url>file:///usr/share/gnome/help/gucharmap/C/gucharmap.xml</url>
+      <title>Character Map Manual</title>
+      <language>C</language>
+      <category>GNOME|Applications|Accessories</category>
+      <description>
+      Character Map is a Unicode character map that allows you to
+        select characters from a table and insert then in to a
+        text string.
+    </description>
+      <seriesid>054930fe-ff13-11d7-927b-c1ece0bc6c90</seriesid>
+    </omffile>
+  </dir><dir>
+    <name>/usr/share/omf/command-line</name>
+    <omffile>
+      <path>/usr/share/omf/command-line/command-line-C.omf</path>
+      <url>file:///usr/share/gnome/help/command-line/C/command-line.xml</url>
+      <title>Command Line Manual</title>
+      <language>C</language>
+      <category>GNOME|Applets|Utility</category>
+      <description>
+    Command Line allows commands to be run from a panel,
+      and includes quick access to a file browser and command history.
+  </description>
+      <seriesid>b841b79a-2615-11d6-95d8-de48cbc601b6</seriesid>
+    </omffile>
+  </dir><dir>
+    <name>/usr/share/omf/cpufreq-applet</name>
+    <omffile>
+      <path>/usr/share/omf/cpufreq-applet/cpufreq-applet-C.omf</path>
+      <url>file:///usr/share/gnome/help/cpufreq-applet/C/cpufreq-applet.xml</url>
+      <title>CPU Frequency Scaling Monitor Manual</title>
+      <language>C</language>
+      <category>GNOME|Applets|Utility</category>
+      <description>
+	  CPU Frequency Scaling Monitor shows the current clock speed of the CPU and provides an
+            interface to change the clock speed if the CPU supports it.
+	</description>
+      <seriesid>cf7c4832-5d89-11d8-859c-c3668c0ad7d6</seriesid>
+    </omffile>
+  </dir><dir>
+    <name>/usr/share/omf/drivemount</name>
+    <omffile>
+      <path>/usr/share/omf/drivemount/drivemount-C.omf</path>
+      <url>file:///usr/share/gnome/help/drivemount/C/drivemount.xml</url>
+      <title>Disk Mounter Manual</title>
+      <language>C</language>
+      <category>GNOME|Applets|Utility</category>
+      <description>
+      Disk Mounter enables you to quickly mount or unmount various 
+        types of drives and file systems from a panel.
+    </description>
+      <seriesid>e9162e90-01bc-11d7-9b3b-c253a7006472</seriesid>
+    </omffile>
+  </dir><dir>
+    <name>/usr/share/omf/multiload</name>
+    <omffile>
+      <path>/usr/share/omf/multiload/multiload-C.omf</path>
+      <url>file:///usr/share/gnome/help/multiload/C/multiload.xml</url>
+      <title>System Monitor Manual</title>
+      <language>C</language>
+      <category>GNOME|Applets|Utility</category>
+      <description>
+      System Monitor displays system load information in graphical 
+        format in a panel.
+    </description>
+      <seriesid>9a0b5202-202f-11d8-872c-c12579848e68</seriesid>
+    </omffile>
+  </dir><dir>
+    <name>/usr/share/omf/gswitchit</name>
+    <omffile>
+      <path>/usr/share/omf/gswitchit/gswitchit-C.omf</path>
+      <url>file:///usr/share/gnome/help/gswitchit/C/gswitchit.xml</url>
+      <title>Keyboard Indicator Manual</title>
+      <language>C</language>
+      <category>GNOME|Applets|Utility</category>
+      <description>
+    The Keyboard Indicator shows the active keyboard group and 
+      enables switching between different groups.
+  </description>
+      <seriesid>ba45ca86-0560-11d9-936c-b93f52abd21f</seriesid>
+    </omffile>
+  </dir><dir>
+    <name>/usr/share/omf/accessx-status</name>
+    <omffile>
+      <path>/usr/share/omf/accessx-status/accessx-status-C.omf</path>
+      <url>file:///usr/share/gnome/help/accessx-status/C/accessx-status.xml</url>
+      <title>Keyboard Accessibility Monitor Manual</title>
+      <language>C</language>
+      <category>GNOME|Applets|Utility</category>
+      <description>
+	   The Keyboard Accessibility Monitor shows the status of the keyboard accessibility 
+	     features, including the current state of the keyboard, if those
+	     those features are in use.
+	 </description>
+      <seriesid>df109296-40e7-11d6-935f-beaae1cfe4f9</seriesid>
+    </omffile>
+  </dir><dir>
+    <name>/usr/share/omf/char-palette</name>
+    <omffile>
+      <path>/usr/share/omf/char-palette/char-palette-C.omf</path>
+      <url>file:///usr/share/gnome/help/char-palette/C/char-palette.xml</url>
+      <title>Character Palette Manual</title>
+      <language>C</language>
+      <category>GNOME|Applets|Utility</category>
+      <description>
+    Character Palette provides a convenient way to access characters that are
+      not on your keyboard, such as accented characters, mathematical symbols,
+      special symbols, and punctuation marks.
+  </description>
+      <seriesid>698a37f6-262b-11d6-99fb-d5af965eddf1</seriesid>
+    </omffile>
+  </dir><dir>
+    <name>/usr/share/omf/workspace-switcher</name>
+    <omffile>
+      <path>/usr/share/omf/workspace-switcher/workspace-switcher-C.omf</path>
+      <url>file:///usr/share/gnome/help/workspace-switcher/C/workspace-switcher.xml</url>
+      <title>Workspace Switcher Manual</title>
+      <language>C</language>
+      <category>GNOME|Applets|Utility</category>
+      <description>
+		The Workspace Switcher displays the workspaces for your GNOME
+		  Desktop in the panel and enables you to switch between them.  You
+                  can also manage windows by dragging them between workspaces.
+	 </description>
+      <seriesid>f6ab0110-2d10-11d6-984f-a7559fbbe0e2</seriesid>
+    </omffile>
+  </dir><dir>
+    <name>/usr/share/omf/window-list</name>
+    <omffile>
+      <path>/usr/share/omf/window-list/window-list-C.omf</path>
+      <url>file:///usr/share/gnome/help/window-list/C/window-list.xml</url>
+      <title>Window List Manual</title>
+      <language>C</language>
+      <category>GNOME|Applets|Utility</category>
+      <description>
+		The Window List enables you to manage the windows that
+		  are open on the GNOME Desktop.   Each window is represented by
+		  a button in the panel in which this applet is located.
+	 </description>
+      <seriesid>11f2815a-2d11-11d6-8a88-bd96c340430a</seriesid>
+    </omffile>
+  </dir><dir>
+    <name>/usr/share/omf/mixer_applet2</name>
+    <omffile>
+      <path>/usr/share/omf/mixer_applet2/mixer_applet2-C.omf</path>
+      <url>file:///usr/share/gnome/help/mixer_applet2/C/mixer_applet2.xml</url>
+      <title>Volume Control Manual</title>
+      <language>C</language>
+      <category>GNOME|Applets|Multimedia</category>
+      <description>
+	   Volume Control enables you to control the sound
+	     volume on your system and provides visual feedback on the
+	     current volume level.
+	 </description>
+      <seriesid>df109296-40e7-11d6-935f-beaae1cfe4f8</seriesid>
+    </omffile>
+  </dir><dir>
+    <name>/usr/share/omf/gnome-applets</name>
+    <omffile>
+      <path>/usr/share/omf/gnome-applets/modemlights-C.omf</path>
+      <url>file:/usr/share/gnome/help/modemlights/C/modemlights.xml</url>
+      <title>Modem Lights Applet Manual</title>
+      <language>C</language>
+      <category>GNOME|Applets|Internet</category>
+      <description>User manual for the Modem Lights Applet.</description>
+      <seriesid>cd9029ca-4ee4-11d8-9702-c1394de038c4</seriesid>
+    </omffile>
+  </dir><dir>
+    <name>/usr/share/omf/gnome-netstatus</name>
+    <omffile>
+      <path>/usr/share/omf/gnome-netstatus/gnome-netstatus-C.omf</path>
+      <url>file:///usr/share/gnome/help/gnome-netstatus/C/gnome-netstatus.xml</url>
+      <title>Network Monitor Manual V2.0</title>
+      <language>C</language>
+      <category>GNOME|Applets|Internet</category>
+      <description>
+      User manual for the Network Monitor applet.
+    </description>
+      <seriesid>5ce2819c-2422-11d8-855f-bb98965120a1</seriesid>
+    </omffile>
+  </dir><dir>
+    <name>/usr/share/omf/geyes</name>
+    <omffile>
+      <path>/usr/share/omf/geyes/geyes-C.omf</path>
+      <url>file:///usr/share/gnome/help/geyes/C/geyes.xml</url>
+      <title>Geyes Manual</title>
+      <language>C</language>
+      <category>GNOME|Applets|Amusement</category>
+      <description>
+	   Geyes provides an entertaining way to track the mouse
+             pointer around your screen, through a pair of moving eyes.
+	 </description>
+      <seriesid>22069bfa-40e7-11d6-916c-fee2e30f369</seriesid>
+    </omffile>
+  </dir><dir>
+    <name>/usr/share/omf/fish</name>
+    <omffile>
+      <path>/usr/share/omf/fish/fish-C.omf</path>
+      <url>file:///usr/share/gnome/help/fish/C/fish.xml</url>
+      <title>Fish Manual</title>
+      <language>C</language>
+      <category>GNOME|Applets|Amusement</category>
+      <description>
+		The Fish program displays an animated image in the panel and gives you
+                  your fortune when clicked.
+	 </description>
+      <seriesid>e9efbc8c-40e7-11d6-815d-e721de25f633</seriesid>
+    </omffile>
+  </dir><dir>
+    <name>/usr/share/omf/gweather</name>
+    <omffile>
+      <path>/usr/share/omf/gweather/gweather-C.omf</path>
+      <url>file:///usr/share/gnome/help/gweather/C/gweather.xml</url>
+      <title>Weather Report Manual</title>
+      <language>C</language>
+      <category>GNOME|Applets|Accessories</category>
+      <description>
+	Weather Report downloads weather information from the internet
+	  and displays it in the panel.
+      </description>
+      <seriesid>1feb430a-2d11-11d6-95c1-a543794e8a17</seriesid>
+    </omffile>
+  </dir><dir>
+    <name>/usr/share/omf/stickynotes_applet</name>
+    <omffile>
+      <path>/usr/share/omf/stickynotes_applet/stickynotes_applet-C.omf</path>
+      <url>file:///usr/share/gnome/help/stickynotes_applet/C/stickynotes_applet.xml</url>
+      <title>Sticky Notes Manual</title>
+      <language>C</language>
+      <category>GNOME|Applets|Accessories</category>
+      <description>
+	Sticky Notes enables you to create, view, and manage 
+          sticky notes on your desktop.
+      </description>
+      <seriesid>b8128ac2-17d4-11d7-9998-e6a4bbe01510</seriesid>
+    </omffile>
+  </dir><dir>
+    <name>/usr/share/omf/trashapplet</name>
+    <omffile>
+      <path>/usr/share/omf/trashapplet/trashapplet-C.omf</path>
+      <url>file:///usr/share/gnome/help/trashapplet/C/trashapplet.xml</url>
+      <title>Panel Trash Manual</title>
+      <language>C</language>
+      <category>GNOME|Applets|Accessories</category>
+      <description>
+	   Panel Trash lets you manage your trash from the panel. 
+	 </description>
+      <seriesid>42caf45e-f911-11d9-8964-8230c32a0993</seriesid>
+    </omffile>
+  </dir><dir>
+    <name>/usr/share/omf/clock</name>
+    <omffile>
+      <path>/usr/share/omf/clock/clock-C.omf</path>
+      <url>file:///usr/share/gnome/help/clock/C/clock.xml</url>
+      <title>Clock Manual</title>
+      <language>C</language>
+      <category>GNOME|Applets|Accessories</category>
+      <description>
+	 	The Clock displays the time and date in a panel.
+	 </description>
+      <seriesid>dc1bc4d4-40e7-11d6-8b82-b4eda00d7b63</seriesid>
+    </omffile>
+  </dir><dir>
+    <name>/usr/share/omf/system-admin-guide</name>
+    <omffile>
+      <path>/usr/share/omf/system-admin-guide/system-admin-guide-C.omf</path>
+      <url>file:///usr/share/gnome/help/system-admin-guide/C/system-admin-guide.xml</url>
+      <title>GNOME 2.14 Desktop System Administration Guide</title>
+      <language>C</language>
+      <category>GNOME|Desktop</category>
+      <description>
+    The GNOME System Administration Guide provides information to administrators
+    on how to configure and manage different aspects of the desktop environment for users.
+    </description>
+      <seriesid>f3da2c14-0dec-11d7-9efe-da71520b9d3f</seriesid>
+    </omffile>
+  </dir><dir>
+    <name>/usr/share/omf/gnome-access-guide</name>
+    <omffile>
+      <path>/usr/share/omf/gnome-access-guide/gnome-access-guide-C.omf</path>
+      <url>file:///usr/share/gnome/help/gnome-access-guide/C/gnome-access-guide.xml</url>
+      <title>GNOME 2.14 Desktop Accessibility Guide</title>
+      <language>C</language>
+      <category>GNOME|Desktop</category>
+      <description>
+    The GNOME Accessibility Guide is for users, system administrators, and anyone who is interested
+    in how the GNOME Desktop supports people with disabilities and addresses the requirements
+    of Section 508 of the U.S. Rehabilitation Act.
+    </description>
+      <seriesid>0f5d3d30-28c5-11d7-9d8d-bd839db251e3</seriesid>
+    </omffile>
+  </dir><dir>
+    <name>/usr/share/omf/user-guide</name>
+    <omffile>
+      <path>/usr/share/omf/user-guide/user-guide-C.omf</path>
+      <url>file:///usr/share/gnome/help/user-guide/C/user-guide.xml</url>
+      <title>Desktop User Guide</title>
+      <language>C</language>
+      <category>GNOME|Desktop</category>
+      <description>
+      The GNOME User Guide is a collection of documentation which details general use of the
+      GNOME Desktop environment.  Topics covered include sessions, panels, menus, file management,
+      and preferences.
+    </description>
+      <seriesid>6a60980a-7315-11d6-9cf7-fdf5569be9f8</seriesid>
+    </omffile>
+  </dir><dir>
+    <name>/usr/share/omf/gnome-feedback</name>
+    <omffile>
+      <path>/usr/share/omf/gnome-feedback/gnome-feedback-C.omf</path>
+      <url>file:///usr/share/gnome/help/gnome-feedback/C/gnome-feedback.xml</url>
+      <title>Reporting GNOME Bugs and Other Feedback</title>
+      <language>C</language>
+      <category>GNOME|Core Desktop</category>
+      <description>
+      This document describes how to report a bug you have found with an
+      GNOME application, and how to go about giving feedback about the GNOME Desktop.
+    </description>
+      <seriesid>cdf9a652-9c44-11da-9e95-f59cbdd55bc8</seriesid>
+    </omffile>
+  </dir><dir>
+    <name>/usr/share/omf/gok</name>
+    <omffile>
+      <path>/usr/share/omf/gok/gok-C.omf</path>
+      <url>file:/usr/share/gnome/help/gok/C/gok.xml</url>
+      <title>
+		GOK Manual
+    </title>
+      <language>C</language>
+      <category>GNOME|Accessibility</category>
+      <description>
+      User manual for GOK. 
+    </description>
+      <seriesid>d6ed21d2-d0d0-11d6-994a-eb03e80c0571</seriesid>
+    </omffile>
+  </dir><dir>
+    <name>/usr/share/omf/fdl</name>
+    <omffile>
+      <path>/usr/share/omf/fdl/fdl-C.omf</path>
+      <url>file:///usr/share/gnome/help/fdl/C/fdl.xml</url>
+      <title>GNU Free Documentation License</title>
+      <language>C</language>
+      <category>General|Licenses</category>
+      <description></description>
+      <seriesid></seriesid>
+    </omffile>
+  </dir><dir>
+    <name>/usr/share/omf/gpl</name>
+    <omffile>
+      <path>/usr/share/omf/gpl/gpl-C.omf</path>
+      <url>file:///usr/share/gnome/help/gpl/C/gpl.xml</url>
+      <title>GNU General Public License</title>
+      <language>C</language>
+      <category>General|Licenses</category>
+      <description></description>
+      <seriesid></seriesid>
+    </omffile>
+  </dir><dir>
+    <name>/usr/share/omf/lgpl</name>
+    <omffile>
+      <path>/usr/share/omf/lgpl/lgpl-C.omf</path>
+      <url>file:///usr/share/gnome/help/lgpl/C/lgpl.xml</url>
+      <title>GNU Lesser General Public License</title>
+      <language>C</language>
+      <category>General|Licenses</category>
+      <description></description>
+      <seriesid></seriesid>
+    </omffile>
+  </dir></omfindex>

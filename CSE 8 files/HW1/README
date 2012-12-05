@@ -1,0 +1,31 @@
+HOW TO RUN
+
+ TwoSmallest:
+ -The program will prompt the user to enter a series of integers.
+ -Once the user is done inputting integers, the user inputs an
+  EOF keyboard sequence, triggering the program to analyze the
+  numbers.
+
+ -If no integers were entered, then the program indicates no
+  integers were entered.
+ -If only one distinct integer was entered, then the program
+  will identify that integer as the smallest integer.
+ -If at least two distinct integers were entered, then the
+  program indicates the smallest and the next smallest integers.
+
+ Triangles:
+ -The program will prompt the user to enter the size of the
+  triangles to be displayed.
+ -The integer must be greater than or equal to 2. Otherwise,
+  the program will keep asking for a valid integer.
+
+ -Once a valid integer is entered, the program will print
+  4 differently-oriented triangles next to each other with 
+  side-lengths of the user's entered desired size.
+
+
+SHORT RESPONSE
+
+1. 
+2. cp copies files
+3. Press <Esc> to exit edit mode and enter command mode.

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<gconf>
+        <entry name="selected_calendars" mtime="1296606493" type="list" ltype="string">
+                <li type="string">
+                        <stringvalue>1296606493.28871.5@e4307-19.ucsd.edu</stringvalue>
+                </li>
+        </entry>
+        <entry name="primary_calendar" mtime="1296606493" type="string">
+                <stringvalue>1296606493.28871.5@e4307-19.ucsd.edu</stringvalue>
+        </entry>
+</gconf>

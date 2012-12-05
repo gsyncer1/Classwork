@@ -1,0 +1,30 @@
+HOW TO RUN
+	This program will display statistics for a name that the user enters.
+	Once the user enters a name, It displays, for every ten years from
+	1880 to 2010, the number of females who had that name and the
+	popularity rank of that name. It displays the same information for
+	males.
+
+	Once the program is running, it will ask whether the user wants to
+	display statistics for a name. If the user wants to view statistics
+	for a name, then the user should enter any character and press enter.
+	(Otherwise, the user can enter EOF, which is <ctrl+d> on linux/mac os
+	systems. This quits the program.)
+
+	If the user enters a character, the program will ask the user for
+	a baby name to display statistics for. Enter a name and press enter.
+	The program will print a table displaying the statistics for that
+	baby name.
+
+	The program will keep on asking the user if he/she wants to view
+	statistics for baby names and asks for the desired name if so.
+
+SHORT RESPONSE
+	1.	The command is :set number
+	2.	An array is a data structure that is a sequential list
+		of elements. These elements may be of primitive data types
+		or references to Objects.
+	3. 	To change to a directory two levels up, you can enter
+		cd ../../
+	
+

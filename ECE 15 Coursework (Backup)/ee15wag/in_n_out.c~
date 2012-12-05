@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+#define TAX 0.0875
+
+FILE *output;
+
+int main()
+{
+   double total = 0.0, subtotal = 0.0;
+   return 0;
+}
+

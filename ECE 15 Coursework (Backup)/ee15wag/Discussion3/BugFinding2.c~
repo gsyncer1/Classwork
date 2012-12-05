@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+// Question:  Why is 2+2 != 4?
+
+int main()
+{
+    int answer; // variable for computation results
+
+    answer = 2+2;
+
+    printf("The answer is %d\n");
+
+    return 0;
+}

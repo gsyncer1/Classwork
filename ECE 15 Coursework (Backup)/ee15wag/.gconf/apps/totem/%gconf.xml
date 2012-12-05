@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<gconf>
+        <entry name="volume" mtime="1300498910" type="int" value="50">
+        </entry>
+        <entry name="subtitle_encoding" mtime="1300498907" type="string">
+                <stringvalue>UTF-8</stringvalue>
+        </entry>
+        <entry name="show_vfx" mtime="1300498907" type="bool" value="true">
+        </entry>
+        <entry name="audio_output_type" mtime="1300498907" type="int" value="0">
+        </entry>
+</gconf>

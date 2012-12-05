@@ -1,0 +1,72 @@
+Differences btwn these assignments:
+More files.
+Do not have to worry about number of female and number of males (?).
+Biggest difference is you'll be plotting the data on a graph.
+
+PopularNamesDriver.java:
+-main()
+{
+   //array of File ptrs
+   //populate them
+   //Files: "yob" +  yr (1880-2009) + ".txt"
+   //2. Prompt user (statistics?)
+   //3. yes ==> prompt user for baby name
+   //4. prompt user for startYear
+   	//a. call getInt
+   	//b. it is main's responsibility to check if startyear is
+   		between START_YEAR and END_YEAR
+      do{
+	 //call getInt
+	 //check if within range
+      }while(//not within range)
+   //5. prompt user for end_year. NOTE: end_year can equal start_year
+   //6. call PopularName object ctr -> name, startyear, endyear, array of
+   	file pointers.
+   //7. currentBaby.printStatistics()
+   //8. width of window: 550 + 2*Margin
+   	height of window: 550+2*margine
+	note width will vary based on amount of data requested.
+	if pixelwidth required > 550, then reassign panel width.
+	
+	draw the lines
+	for(i=100, i<=650; i+=50)
+	{
+	   g.drawline(0, i, pW, i (?) )
+	   g. drawString("Rank...", 0, i);
+	}
+}
+
+
+-getInt()
+
+
+
+PopularName.java:
+-constructors:
+
+PopularName(name, yobFiles, sy, ey)
+{
+   this.name = name;
+   this.sy = ey;
+   this.ey = ey;
+   femaleRank[] = new int[ey-sy+1];
+   maleRank[] = new int[ey-sy+1];
+   populateRankArrays(name, yobFiles, sy, ey, femaleRank, maleRank)
+   	//if name not found -> rank = 1001
+}
+
+plotFemaleGraph() //draws the ovals
+{
+   for(i=0; i<femaleRanks.length; i++)
+   {
+      g.fillOval(x-2, //*Y VALUE, 4, 4)
+      *Y VALUE should be ((fR[i]+1)/2 + MARGIN)-2
+      x should be incrementd by 15 pixels
+   }
+}
+
+drawFemaleGraph()
+{
+   //only 8 lines if 9 points
+   g.drawLine(x,((fr[i]+1)/2+margin)-2, x+15, ...((fr[i+1]+1)/2 + margin -2);
+}

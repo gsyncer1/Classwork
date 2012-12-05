@@ -1,0 +1,22 @@
+HOW TO RUN
+	This program does not take any inputs. Just compile one of the
+	TestMickey or TestHouse files using javac and run the program. Once
+	the program starts running, it opens a drawing panel showing the
+	picture. TestMickey should show a simple picture of Mickey Mouse's
+	head with the type and relevant dimensions of each shape drawn.
+	TestMickeyWithDelays and TestHouseWithDelays all draw a Mickey Mouse
+	character and House, respectively, with delays between the drawing of
+	each shape. Text appears below the image saying what shape is
+	being drawn and its relevant dimensions.
+
+SHORT RESPONSE
+	1. Java interfaces have no implementation while abstract classes may
+	   have some implemented methods. Java interfaces use the interface
+	   keyword in the definition while abstract classes use the keyword
+	   abstract in the definition.
+	2. Java interfaces and abstract classes both contain abstract methods.
+	   They also have an is-a relationship.
+	3. Type 
+	   	gvim -p *.java 
+	   to open all java source code files in the current directory, 
+	   each in its own tab.

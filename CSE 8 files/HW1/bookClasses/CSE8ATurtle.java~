@@ -1,0 +1,299 @@
+/*
+ * Name: Glenn brioens
+ * Login: cs8wfs
+ * Date: January 10, 2011
+ * File: CSE8ATurtle.java
+ * Sources of Help: ...
+ *
+ * Describe what this program does here.
+ */
+
+import java.awt.Color;
+
+public class CSE8ATurtle extends Turtle
+{
+   private final static int CHAR_WIDTH = 40;
+   private final static int LINE_WIDTH = 80;
+   private final static int LINE_SPACE = LINE_WIDTH + 40;
+   private final static int CHAR_SPACE = CHAR_WIDTH + 40;
+   
+   private final static int WORLD_WIDTH = 600;
+   private final static int WORLD_HEIGHT = 400;
+   
+   public CSE8ATurtle()
+   {
+      super(new World(WORLD_WIDTH, WORLD_HEIGHT)); // Creates WORLD_WIDTH by WORLD_HEIGHT world.
+   }
+   
+   private void drawC(int x, int y) // Draws letter C
+   {
+      penUp(); moveTo(x,y);
+      turnToFace(getXPos()+1,getYPos());
+      penDown();
+      forward(40);
+      penUp();
+      backward(40);
+      turnRight();
+      penDown();
+      forward(80);
+      turnLeft();
+      forward(40);
+   }
+   
+   private void drawS(int x, int y) // Draws letter S
+   {
+      penUp(); moveTo(x,y);
+      turnToFace(getXPos()+1,getYPos());
+      penDown();
+      forward(40);
+      penUp();
+      backward(40);
+      penDown();
+      turnRight();
+      forward(40);
+      turnLeft();
+      forward(40);
+      turnRight();
+      forward(40);
+      turnRight();
+      forward(40);
+   }
+   
+   private void draw8(int x, int y) // Draws number 8
+   {
+      penUp(); moveTo(x,y);
+      turnToFace(getXPos()+1,getYPos());
+      penDown();
+      forward(40);
+      turnRight();
+      forward(80);
+      turnRight();
+      forward (40);
+      turnRight();
+      forward(80);
+      penUp();
+      backward(40);
+      turnRight();
+      penDown();
+      forward(40);
+   }
+   
+   private void drawW(int x, int y) // Draws letter W
+   {
+     penUp(); moveTo(x,y);
+     turnToFace(getXPos(),getYPos()+1);
+     penDown();
+     forward(80);
+     turn(-135);
+     forward (28);
+     turn(90);
+     forward(28);
+     turn(-135);
+     forward(80);
+   }
+   
+   private void drawF(int x, int y) // Draws letter F
+   {
+     penUp(); moveTo(x,y);
+     turnToFace(getXPos()+1,getYPos());
+     penDown();
+     forward(40);
+     penUp();
+     backward(40);
+     turnRight();
+     penDown();
+     forward(80);
+     penUp();
+     backward(40);
+     turnLeft();
+     penDown();
+     forward(20);
+   }
+   
+   private void drawI(int x, int y) // Draws letter I
+   {
+     penUp(); moveTo(x,y);
+     turnToFace(getXPos()+1,getYPos());
+     penDown();
+     forward(40);
+     penUp();
+     backward(20);
+     turnRight();
+     penDown();
+     forward(80);
+     penUp();
+     turnLeft();
+     backward(20);
+     penDown();
+     forward(40);
+   }
+     
+   private void drawN(int x, int y) // Draws letter N
+   {
+     penUp(); moveTo(x,y);
+     turnToFace(getXPos(),getYPos()+1);
+     penDown();
+     forward(80);
+     penUp();
+     backward(80);
+     penDown();
+     moveTo(getXPos()+40,getYPos()+80);
+     turn(180);
+     forward(80);
+   }
+   
+   // Draws letter T
+   private void drawT(int x, int y)
+   {
+     penUp(); moveTo(x,y);
+     turnToFace(getXPos()+1,getYPos()); // turn to face right side
+     penDown();
+     forward(40);
+     penUp();
+     backward(20);
+     turnRight();
+     penDown();
+     forward(80);
+   }
+   
+   // Draws letter E
+   private void drawE(int x, int y)
+   {
+     penUp(); moveTo(x,y);
+     turnToFace(getXPos()+1, getYPos());
+     /* The letter E will be drawn like the number 8 (draw8)
+      * except that the pen is up while turtle moves
+      * along right side of character.
+      */
+     penDown();
+     forward(40);
+     penUp();
+     turnRight();
+     forward(80);
+     turnRight();
+     penDown();
+     forward(40);
+     turnRight();
+     forward(80);
+     penUp();
+     backward(40);
+     turnRight();
+     penDown();
+     forward(20);
+   }
+
+   // Draws letter R
+   private void drawR(int x, int y)
+   {
+     penUp(); moveTo(x,y);
+     turnToFace(getXPos(), getYPos()+1);
+     penDown();
+     forward(80);
+     penUp();
+     backward(80);
+     turnLeft();
+     penDown();
+     forward(40);
+     turnRight();
+     forward(40);
+     turnRight();
+     forward(40);
+     moveTo(getXPos()+40,getYPos()+40);
+   }
+   
+   // Draws number 2
+   private void draw2(int x, int y)
+   {
+     penUp(); moveTo(x,y);
+     turnToFace(getXPos()+1, getYPos());
+     penDown();
+     forward(40);
+     turnRight();
+     forward(40);
+     turnRight();
+     forward(40);
+     turnLeft();
+     forward(40);
+     turnLeft();
+     forward(40);
+   }
+   
+   // Draws number 0
+   private void draw0(int x, int y)
+   {
+     penUp(); moveTo(x,y);
+     turnToFace(getXPos()+1, getYPos());
+     penDown();
+     forward(40);
+     turnRight();
+     forward(80);
+     turnRight();
+     forward(40);
+     turnRight();
+     forward(80);
+   }
+   
+   //Draws number 1
+   private void draw1(int x, int y)
+   {
+     /* Moves turtle to bottom left corner
+      * of character */
+     penUp(); moveTo(x,y+80);
+     
+     turnToFace(getXPos()+1,getYPos());
+     penDown();
+     forward(40);
+     penUp();
+     backward(20);
+     turnLeft();
+     penDown();
+     forward(80);
+     turn(-135);
+     forward(20);
+   }
+   
+   /* TODO: Add any remaining methods to draw all the other characters */
+   
+   
+   /*
+    * Name: Class or method name
+    * Purpose: Briefly describe the purpose of this class or method
+    * Parameters: List all parameters and their types and what they represent.
+    * If no parameters, just state None.
+    * Return: Specify the return type and what it represents.
+    * If no return value, just specify void.
+    */
+   
+   public static void main(String [] args) //Main function is here
+   {
+     CSE8ATurtle myTurtle = new CSE8ATurtle();
+     
+     int startX1 = 80,
+         startX2 = 80,
+         startX3 = 160;
+     int startY = 40;
+     
+     int x,y;
+     
+     myTurtle.setPenWidth(10);
+     myTurtle.setPenColor(Color.BLUE);
+     
+     myTurtle.drawC(x = startX1, y = startY); // 1st line of text
+     myTurtle.drawS(x += CHAR_SPACE, y);
+     myTurtle.draw8(x += CHAR_SPACE, y);
+     myTurtle.drawW(x += CHAR_SPACE, y);
+     myTurtle.drawF(x += CHAR_SPACE, y);
+     myTurtle.drawS(x += CHAR_SPACE, y);
+     myTurtle.drawW(x = startX2, y += LINE_SPACE); // 2nd line of text
+     myTurtle.drawI(x += CHAR_SPACE, y);
+     myTurtle.drawN(x += CHAR_SPACE, y);
+     myTurtle.drawT(x += CHAR_SPACE, y);
+     myTurtle.drawE(x += CHAR_SPACE, y);
+     myTurtle.drawR(x += CHAR_SPACE, y);
+     myTurtle.draw2(x = startX3, y += LINE_SPACE); // 3rd line of text
+     myTurtle.draw0(x += CHAR_SPACE, y);
+     myTurtle.draw1(x += CHAR_SPACE, y);
+     myTurtle.draw1(x += CHAR_SPACE, y);
+   }
+   
+} // End of public class CSE8ATurtle extends Turtle

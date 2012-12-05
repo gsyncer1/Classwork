@@ -1,0 +1,5 @@
+; hal-device-manager GtkAccelMap rc-file         -*- scheme -*-
+; this file is an automated accelerator map dump
+;
+; (gtk_accel_path "<hal-device-manager>/-Orphan/_About" "")
+; (gtk_accel_path "<hal-device-manager>/-Orphan/_Quit" "<Control>q")

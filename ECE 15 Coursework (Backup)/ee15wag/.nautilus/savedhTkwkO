@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<session>
+  <history>
+    <bookmark name="ee15wag" icon="user-home" uri="file:///home/linux/ieng6/ee15w/ee15wag"/>
+    <bookmark name="Discussion5" icon="gnome-fs-directory" uri="file:///home/linux/ieng6/ee15w/ee15wag/Discussion5"/>
+    <bookmark name="testFiles" icon="gnome-fs-directory" uri="file:///home/linux/ieng6/ee15w/public/testFiles"/>
+    <bookmark name="Discussion7" icon="gnome-fs-directory" uri="file:///home/linux/ieng6/ee15w/public/sampleCode/Discussion7"/>
+    <bookmark name="sampleCode" icon="gnome-fs-directory" uri="file:///home/linux/ieng6/ee15w/public/sampleCode"/>
+    <bookmark name="public" icon="gnome-fs-directory" uri="file:///home/linux/ieng6/ee15w/public"/>
+    <bookmark name="ee15w" icon="gnome-fs-directory" uri="file:///home/linux/ieng6/ee15w"/>
+  </history>
+</session>

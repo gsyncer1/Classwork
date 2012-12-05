@@ -1,0 +1,37 @@
+HOW TO RUN
+	The program shows various results of different manipulations of text
+	from a file that the user desires.
+	The program asks the user if they want to play a game. Enter any
+	character to play, otherwise enter the EOF keyboard sequence.
+	If the user wants to play, the program prompts the user for a file 
+	name.
+	The program will then print a menu of various things the user can
+	do with the text from the file. Enter the number corresponding
+	to the thing the user wants to have done.
+
+	Entering 1 removes the shorter strings of each pair of words in the
+	file. The remaining words are printed in an array.
+	Entering 2 asks the user for two words. All words that alphanumerically
+	come between the two words that the user enters will be removed and
+	the remaining words are printed in an array.
+	Entering 3 asks the user for another file with text. Enter the name
+	of the other file (including extension). The program then prints
+	in an array the text from the two files interleaved.
+	Entering 4 asks the user for an integer n. This number represents the
+	number of strings that are reversed in successive order from the file.
+	The program prints in an array the result.
+	Entering 5 reverses the contents of the file line by line, word by word
+	while preserving the newline characters.
+	Entering any other number will prompt the user that the input is
+	invalid.
+
+	The program will then ask the user if he/she would like to continue
+	performing more manipulations. Enter any character to continue,
+	otherwise enter the EOF keyboard sequence to quit.
+
+SHORT RESPONSE
+	1. We say the method implementation in the subclass OVERRIDES the
+	   method in the superclass.
+	2. We say these methods or ctors are OVERLOADED.
+	3. The command is 
+		mkdir -p fooDir/barDir

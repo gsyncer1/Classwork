@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<session>
+  <history>
+    <bookmark name="ee15wag" icon="user-home" uri="file:///home/linux/ieng6/ee15w/ee15wag"/>
+    <bookmark name="Discussion8" icon="gnome-fs-directory" uri="file:///home/linux/ieng6/ee15w/ee15wag/Discussion8"/>
+    <bookmark name="Discussion9" icon="gnome-fs-directory" uri="file:///home/linux/ieng6/ee15w/ee15wag/Discussion9"/>
+    <bookmark name="Discussion10" icon="gnome-fs-directory" uri="file:///home/linux/ieng6/ee15w/ee15wag/Discussion10"/>
+    <bookmark name="Discussion7" icon="gnome-fs-directory" uri="file:///home/linux/ieng6/ee15w/ee15wag/Discussion7"/>
+    <bookmark name="Lab4" icon="gnome-fs-directory" uri="file:///home/linux/ieng6/ee15w/public/sampleCode/Lab4"/>
+    <bookmark name="Discussion10" icon="gnome-fs-directory" uri="file:///home/linux/ieng6/ee15w/public/sampleCode/Discussion10"/>
+    <bookmark name="sampleCode" icon="gnome-fs-directory" uri="file:///home/linux/ieng6/ee15w/public/sampleCode"/>
+    <bookmark name="testFiles" icon="gnome-fs-directory" uri="file:///home/linux/ieng6/ee15w/public/testFiles"/>
+    <bookmark name="public" icon="gnome-fs-directory" uri="file:///home/linux/ieng6/ee15w/public"/>
+    <bookmark name="ee15w" icon="gnome-fs-directory" uri="file:///home/linux/ieng6/ee15w"/>
+  </history>
+</session>

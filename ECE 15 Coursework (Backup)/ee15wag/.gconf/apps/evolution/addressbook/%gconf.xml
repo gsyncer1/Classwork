@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<gconf>
+        <entry name="sources" mtime="1296606493" type="list" ltype="string">
+                <li type="string">
+                        <stringvalue>&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;group uid=&quot;1296606493.28871.19@e4307-19.ucsd.edu&quot; name=&quot;On This Computer&quot; base_uri=&quot;file:///home/linux/ieng6/ee15w/ee15wag/.evolution/addressbook/local&quot; readonly=&quot;no&quot;&gt;&lt;source uid=&quot;1296606493.28871.20@e4307-19.ucsd.edu&quot; name=&quot;Personal&quot; relative_uri=&quot;system&quot;&gt;&lt;properties&gt;&lt;property name=&quot;completion&quot; value=&quot;true&quot;/&gt;&lt;/properties&gt;&lt;/source&gt;&lt;/group&gt;
+</stringvalue>
+                </li>
+                <li type="string">
+                        <stringvalue>&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;group uid=&quot;1296606493.28871.21@e4307-19.ucsd.edu&quot; name=&quot;On LDAP Servers&quot; base_uri=&quot;ldap://&quot; readonly=&quot;no&quot;/&gt;
+</stringvalue>
+                </li>
+        </entry>
+</gconf>

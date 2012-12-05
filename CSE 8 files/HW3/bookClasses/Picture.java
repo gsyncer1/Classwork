@@ -1,0 +1,241 @@
+import java.awt.*;
+import java.awt.font.*;
+import java.awt.geom.*;
+import java.awt.image.BufferedImage;
+import java.text.*;
+import java.util.*;
+import java.util.List; // resolves problem with java.awt.List and java.util.List
+
+/**
+ * A class that represents a picture.  This class inherits from 
+ * SimplePicture and allows the student to add functionality to
+ * the Picture class.  
+ * 
+ * Copyright Georgia Institute of Technology 2004-2005
+ * @author Barbara Ericson ericson@cc.gatech.edu
+ */
+public class Picture extends SimplePicture 
+{
+  ///////////////////// constructors //////////////////////////////////
+  
+  /**
+   * Constructor that takes no arguments 
+   */
+  public Picture ()
+  {
+    /* not needed but use it to show students the implicit call to super()
+     * child constructors always call a parent constructor 
+     */
+    super();  
+  }
+  
+  /**
+   * Constructor that takes a file name and creates the picture 
+   * @param fileName the name of the file to create the picture from
+   */
+  public Picture(String fileName)
+  {
+    // let the parent class handle this fileName
+    super(fileName);
+  }
+  
+  /**
+   * Constructor that takes the width and height
+   * @param width the width of the desired picture
+   * @param height the height of the desired picture
+   */
+  public Picture(int width, int height)
+  {
+    // let the parent class handle this width and height
+    super(width,height);
+  }
+  
+  /**
+   * Constructor that takes a picture and creates a 
+   * copy of that picture
+   */
+  public Picture(Picture copyPicture)
+  {
+    // let the parent class do the copy
+    super(copyPicture);
+  }
+  
+  /**
+   * Constructor that takes a buffered image
+   * @param image the buffered image to use
+   */
+  public Picture(BufferedImage image)
+  {
+    super(image);
+  }
+  
+  ////////////////////// methods ///////////////////////////////////////
+  
+  /**
+   * Method to return a string with information about this picture.
+   * @return a string with information about the picture such as fileName,
+   * height and width.
+   */
+  public String toString()
+  {
+    String output = "Picture, filename " + getFileName() + 
+      " height " + getHeight() 
+      + " width " + getWidth();
+    return output;
+    
+  }
+  
+  /*
+   * Name: subtractColor
+   *
+   * Purpose: Subtracts RGB values from each pixel
+   *
+   * Parameters: int red, int green, int blue
+   *
+   * Return: void
+   */
+  
+  public void subtractColor(int red, int green, int blue) 
+  {
+    Pixel[] pixelArray = this.getPixels();
+    Pixel pixel = null;
+    int value = 0;
+    
+    for(int  i=0; i < pixelArray.length; i++)
+    {
+      pixel = pixelArray[i];
+     
+      //Subtracts Red value
+      value = pixel.getRed();
+      value = (int) (value - red);
+      if( value < 0)
+        pixel.setRed(0);
+      else
+      {
+        pixel.setRed(value);
+      }
+      
+      //Subtracts Green value
+      value = pixel.getGreen();
+      value = (int) (value - green);
+      if( value < 0)
+        pixel.setGreen(0);
+      else
+      {
+        pixel.setGreen(value);
+      }
+      
+      //Subtracts Blue value
+      value = pixel.getBlue();
+      value = (int) (value - blue);
+      if( value < 0)
+        pixel.setBlue(0);
+      else
+      {
+        pixel.setBlue(value);
+      }
+    }
+  
+      
+    
+    
+  }
+  
+  
+   /*
+   * Name: negative
+   *
+   * Purpose: makes the color of each pixel negative
+   *
+   * Parameters: int start, int end
+   *
+   * Return: void
+   */
+public void negative(int start, int end)
+{
+  Pixel[] pixelArray = this.getPixels();
+  Pixel pixel = null;
+  int redValue, blueValue, greenValue = 0;
+  
+  
+//loop through all the pixels
+  
+  for(int i = start; i < end; i++)
+//get the current pixel
+    
+  {
+    pixel = pixelArray[i];
+    
+// get the current red, green, and blue values,
+    redValue = pixel.getRed();
+    greenValue = pixel.getGreen();
+    blueValue = pixel.getBlue();
+    
+// set the pixel's color to the new color
+    pixel.setColor(new Color (255- redValue,
+                              255- greenValue,
+                              255- blueValue));
+  }
+} 
+  
+
+  /*
+   * Name: grayscale
+   *
+   * Purpose: makes the color of each pixel gray
+   *
+   * Parameters: int start, int end
+   *
+   * Return: void
+   */
+public void grayscale(int start, int end)
+{
+Pixel[] pixelArray = this.getPixels();
+Pixel pixel = null;
+int intensity = 0;
+
+
+//loop through all the pixels
+
+for(int i = start; i < end; i++)
+//get the current pixel
+  
+{
+  pixel = pixelArray[i];
+  
+// compute the intensity of the pixel (average value)
+  intensity = (int)((pixel.getRed() + pixel.getGreen() + pixel.getBlue())/3);
+// set the pixel's color to the new color
+  pixel.setColor(new Color (intensity,intensity,intensity));
+   }
+} 
+
+
+  /*
+   * Name: myFilter
+   *
+   * Purpose: Switches the RGB values of each pixel.
+   *
+   * Parameters: int start, int end
+   *
+   * Return: void
+   */
+public void myFilter(int start, int end)
+{
+  Pixel[] pixelArray = this.getPixels();
+  Pixel pixel = null;
+  int value = 0;
+  // Switches the red, green and blue values of each pixel.
+  // R gets G, G gets B, B gets R
+  for( int i = start; i < end; i++)
+  {
+    pixel = pixelArray[i];
+    value = pixel.getRed();
+    pixel.setRed(pixel.getGreen());
+    pixel.setGreen(pixel.getBlue());
+    pixel.setBlue(value);
+  }
+}
+
+} // this } is the end of class Picture, put all new methods before this
+ 

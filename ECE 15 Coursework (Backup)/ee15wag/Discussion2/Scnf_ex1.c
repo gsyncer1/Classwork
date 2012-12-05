@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+/* Gets 2 numbers from user. Computes and displays their sum. */
+
+int main(){
+
+   double a,b,sum;
+
+   // Prompt the user for input
+   printf("Enter two integers\n");
+   
+   // Read the user's input
+   scanf("%lf",&a); 
+   scanf("%lf",&b); 
+   // don't forget to put & in front of the variable - address!
+
+   sum = a+b;
+
+   printf("The sum of two integers you input is: %lf\n",sum);
+   return 0;
+}

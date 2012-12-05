@@ -1,0 +1,23 @@
+/*
+* Filename: HW3A.java
+* Name: Your name and your partner?s name
+* Login: Your cs8wxx account and your partner?s cs8wxx account
+* Date: Month, Day, Year
+* File: Name of this file
+* Sources of Help: ... (for example: names of people, books, websites, etc.)
+*
+* Describe what the code does here.
+*/
+public class HW3A
+{
+//The line below is magic, you don't have to understand it yet.
+  public static void main (String[] args)
+  {
+    Picture original = new Picture(FileChooser.pickAFile());
+    Picture copy = new Picture(original);
+    original.explore();
+    copy.subtractColor(30,50,-255);
+    copy.explore();
+
+  }
+}

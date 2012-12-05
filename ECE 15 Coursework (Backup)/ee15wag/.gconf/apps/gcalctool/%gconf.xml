@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<gconf>
+        <entry name="display" mtime="1300404110" type="string">
+                <stringvalue>FIX</stringvalue>
+        </entry>
+        <entry name="register9" mtime="1300404110" type="string">
+                <stringvalue>0</stringvalue>
+        </entry>
+        <entry name="register8" mtime="1300404110" type="string">
+                <stringvalue>0</stringvalue>
+        </entry>
+        <entry name="register7" mtime="1300404110" type="string">
+                <stringvalue>0</stringvalue>
+        </entry>
+        <entry name="register6" mtime="1300404110" type="string">
+                <stringvalue>0</stringvalue>
+        </entry>
+        <entry name="register5" mtime="1300404110" type="string">
+                <stringvalue>0</stringvalue>
+        </entry>
+        <entry name="register4" mtime="1300404110" type="string">
+                <stringvalue>0</stringvalue>
+        </entry>
+        <entry name="register3" mtime="1300404110" type="string">
+                <stringvalue>0</stringvalue>
+        </entry>
+        <entry name="register2" mtime="1300404110" type="string">
+                <stringvalue>0</stringvalue>
+        </entry>
+        <entry name="register1" mtime="1300404110" type="string">
+                <stringvalue>0</stringvalue>
+        </entry>
+        <entry name="register0" mtime="1300404110" type="string">
+                <stringvalue>0</stringvalue>
+        </entry>
+        <entry name="base" mtime="1300404110" type="string">
+                <stringvalue>DEC</stringvalue>
+        </entry>
+</gconf>
